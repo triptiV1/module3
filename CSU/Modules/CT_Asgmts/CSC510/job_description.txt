@@ -1,0 +1,39 @@
+We are seeking a skilled Software Engineer with experience in leveraging emerging AI tools and technologies to improve and accelerate the development efforts for our security products. In this role, you will be responsible for designing and implementing AI solutions that improve the overall efficiency of how we secure Cisco and our products through using AI to automate and accelerate our efforts. 
+
+Responsibilities Include: 
+
+Integrate and deploy AI models to accelerate application development. 
+Develop Agentic applications to automate or accelerate key tasks. 
+Collaborate with cross-functional teams to define and deliver AI driven solutions. 
+Use AI to analyze large sets of structured and unstructured data to derive meaningful insights. 
+Evaluate and select appropriate AI models, libraries, and third-party tools. 
+Document and communicate the technical aspects of AI projects to partners. 
+Conduct research to advance the capabilities of Cisco S&TO’s high-impact initiatives. 
+Stay up to date with the latest trends and advancements in AI and provide recommendations to the rest of the organization. 
+Work closely with multi-functional teams, including cybersecurity experts, data scientists, and software engineers, to align AI initiatives with organizational goals. 
+The ideal candidate will have a proven track record of integrating AI solutions into development. 
+
+
+
+
+
+Minimum Qualifications: 
+
+Bachelor’s degree in computer science and experience in software engineering using Python, Go, Bash or similar languages 
+Understanding of Vector Databases such as pgvector, Milvus, Pinecone, Weaveate, MongoDB Atlas Vector Search, etc. 
+Experience with orchestration libraries such as LangChain, LlamaIndex, and/or LangGraph 
+Experience with source control and continuous integration tools like Git, Jenkins 
+Demonstrate a dedicated attitude and ability to work multi-functionally with engineering and data science teams 
+
+
+
+
+Preferred Qualifications: 
+
+Experience using container technologies such as Docker or Kubernetes 
+Experience with cloud computing and working with cloud providers such as AWS Bedrock, SageMaker, Google Vertex AI, or Azure AI Foundry 
+Experience with model training and deployment in production environments 
+Ability to work cross functionally with engineering and data science teams 
+Aptitude to stay up to date with advancing AI and machine learning technologies and industry best practices 
+Ability and the passion to learn new things quickly
+Experience with Infrastructure as Code (IaC) tools like Terraform and observability platforms like Splunk, Grafana or Prometheus
