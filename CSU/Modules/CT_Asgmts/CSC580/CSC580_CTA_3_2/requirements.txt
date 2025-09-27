@@ -1,0 +1,9 @@
+tensorflow>=2.10
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+seaborn>=0.13
+python-docx>=1.1
+# Optional: tensorflow-docs provides nicer training progress dots and history plotter
+# If installation fails, the script falls back gracefully
+tensorflow-docs>=0.16; platform_system != "Windows"

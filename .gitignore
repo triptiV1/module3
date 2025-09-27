@@ -6,3 +6,6 @@
 CSU/Modules/CT_Asgmts/CSC525/models/
 CSU/Modules/CT_Asgmts/CSC525/nlpChatbot/*.csv
 CSU/Modules/CT_Asgmts/CSC580/CSC580_CTA_2_1_Vishwakarma_Tripti/.venv311/
+
+# macOS system files
+.DS_Store
