@@ -1,0 +1,3 @@
+[submodule "CSU/Modules/CT_Asgmts/CSC525/TensorFlow-Examples"]
+	path = CSU/Modules/CT_Asgmts/CSC525/TensorFlow-Examples
+	url = https://github.com/aymericdamien/TensorFlow-Examples.git
