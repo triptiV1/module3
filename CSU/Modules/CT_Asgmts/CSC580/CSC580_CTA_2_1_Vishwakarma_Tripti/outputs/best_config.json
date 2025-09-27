@@ -1,0 +1,22 @@
+{
+  "hidden_units": 512,
+  "learning_rate": 0.5,
+  "batch_size": 32,
+  "epochs": 5,
+  "layers": 1,
+  "seed": 42,
+  "test_accuracy": 0.9817,
+  "misclassified_saved": [
+    "outputs/misclassified/misclassified_000_true1_pred9.png",
+    "outputs/misclassified/misclassified_001_true2_pred9.png",
+    "outputs/misclassified/misclassified_002_true9_pred8.png",
+    "outputs/misclassified/misclassified_003_true4_pred2.png",
+    "outputs/misclassified/misclassified_004_true9_pred3.png",
+    "outputs/misclassified/misclassified_005_true2_pred7.png",
+    "outputs/misclassified/misclassified_006_true5_pred3.png",
+    "outputs/misclassified/misclassified_007_true6_pred0.png",
+    "outputs/misclassified/misclassified_008_true4_pred9.png",
+    "outputs/misclassified/misclassified_009_true3_pred5.png"
+  ],
+  "timestamp": "2025-09-20T23:37:16"
+}

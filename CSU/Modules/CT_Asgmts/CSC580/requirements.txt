@@ -1,0 +1,13 @@
+# Face Detection Dependencies for CSC580
+
+# Primary implementation (may require cmake)
+face_recognition>=1.3.0
+Pillow>=10.0.0
+numpy>=1.21.0
+
+# Alternative implementation (more reliable)
+opencv-python>=4.8.0
+
+# System dependencies for face_recognition:
+# macOS: brew install cmake
+# Ubuntu: sudo apt-get install cmake libopenblas-dev liblapack-dev

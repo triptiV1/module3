@@ -1,0 +1,147 @@
+{
+  "categories": {
+    "technology": {
+      "nltk": {
+        "definition": "NLTK (Natural Language Toolkit) is a comprehensive Python library for natural language processing. It provides tools for tokenization, parsing, classification, semantic reasoning, and linguistic data analysis. NLTK includes over 50 corpora and lexical resources.",
+        "keywords": ["natural language toolkit", "nlp library", "python nlp", "text processing"],
+        "related_topics": ["spacy", "natural language processing", "python", "machine learning"]
+      },
+      "machine learning": {
+        "definition": "Machine learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without being explicitly programmed. It uses algorithms to identify patterns in data and make predictions or classifications.",
+        "keywords": ["ml", "ai", "algorithms", "data science", "predictive modeling"],
+        "related_topics": ["artificial intelligence", "deep learning", "neural networks", "python"]
+      },
+      "python": {
+        "definition": "Python is a high-level, interpreted programming language known for its simple syntax and readability. It's widely used in web development, data science, artificial intelligence, automation, and scientific computing.",
+        "keywords": ["programming language", "coding", "development", "scripting"],
+        "related_topics": ["machine learning", "web development", "data science", "automation"]
+      },
+      "artificial intelligence": {
+        "definition": "Artificial Intelligence (AI) is the simulation of human intelligence in machines. It includes machine learning, neural networks, natural language processing, and computer vision to enable machines to perform tasks that typically require human intelligence.",
+        "keywords": ["ai", "intelligent systems", "automation", "cognitive computing"],
+        "related_topics": ["machine learning", "neural networks", "deep learning", "robotics"]
+      },
+      "neural networks": {
+        "definition": "Neural networks are computing systems inspired by biological neural networks. They consist of interconnected nodes (neurons) that process information and learn patterns from data through training.",
+        "keywords": ["nn", "deep learning", "neurons", "backpropagation"],
+        "related_topics": ["deep learning", "machine learning", "tensorflow", "artificial intelligence"]
+      },
+      "deep learning": {
+        "definition": "Deep learning is a subset of machine learning that uses neural networks with multiple layers to model and understand complex patterns in data. It's particularly effective for image recognition, speech processing, and natural language understanding.",
+        "keywords": ["dl", "deep neural networks", "cnn", "rnn", "transformer"],
+        "related_topics": ["neural networks", "tensorflow", "machine learning", "computer vision"]
+      },
+      "tensorflow": {
+        "definition": "TensorFlow is an open-source machine learning framework developed by Google. It provides tools for building and training neural networks and is widely used for deep learning applications.",
+        "keywords": ["google", "ml framework", "deep learning framework"],
+        "related_topics": ["pytorch", "keras", "deep learning", "neural networks"]
+      },
+      "natural language processing": {
+        "definition": "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and generate human language. It combines computational linguistics with machine learning to process text and speech.",
+        "keywords": ["nlp", "text processing", "language understanding", "computational linguistics"],
+        "related_topics": ["nltk", "spacy", "machine learning", "chatbot"]
+      },
+      "chatbot": {
+        "definition": "A chatbot is an AI-powered software application designed to simulate human conversation. It can understand user inputs and provide relevant responses using natural language processing and machine learning techniques.",
+        "keywords": ["conversational ai", "virtual assistant", "dialogue system"],
+        "related_topics": ["natural language processing", "machine learning", "artificial intelligence"]
+      },
+      "spacy": {
+        "definition": "spaCy is an advanced natural language processing library for Python. It's designed for production use and provides fast, accurate linguistic annotations including tokenization, part-of-speech tagging, named entity recognition, and dependency parsing.",
+        "keywords": ["nlp library", "industrial strength", "linguistic analysis", "ner"],
+        "related_topics": ["nltk", "natural language processing", "python", "named entity recognition"]
+      }
+    },
+    "science": {
+      "photosynthesis": {
+        "definition": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of sugar. It's essential for life on Earth as it produces oxygen and food.",
+        "keywords": ["plants", "chlorophyll", "sunlight", "co2", "oxygen"],
+        "related_topics": ["biology", "plants", "ecology", "carbon cycle"]
+      },
+      "dna": {
+        "definition": "DNA (Deoxyribonucleic Acid) is the hereditary material in humans and most other organisms. It contains the genetic instructions for the development and function of living things.",
+        "keywords": ["genetics", "heredity", "genes", "chromosomes", "nucleic acid"],
+        "related_topics": ["genetics", "biology", "evolution", "rna"]
+      },
+      "gravity": {
+        "definition": "Gravity is a fundamental force that attracts objects with mass toward each other. On Earth, it gives weight to physical objects and causes them to fall toward the ground at 9.8 m/s².",
+        "keywords": ["physics", "force", "newton", "acceleration", "mass"],
+        "related_topics": ["physics", "newton", "relativity", "mass"]
+      },
+      "evolution": {
+        "definition": "Evolution is the process by which different kinds of living organisms develop and diversify from earlier forms during the history of the earth, primarily through natural selection.",
+        "keywords": ["darwin", "natural selection", "species", "adaptation"],
+        "related_topics": ["biology", "darwin", "natural selection", "genetics"]
+      }
+    },
+    "chemistry": {
+      "h2so4": {
+        "definition": "H2SO4 is sulfuric acid, one of the most important industrial chemicals. It's a strong acid consisting of two hydrogen atoms, one sulfur atom, and four oxygen atoms. It's highly corrosive and used in battery acid, fertilizers, and chemical manufacturing.",
+        "keywords": ["sulfuric acid", "strong acid", "industrial chemical", "corrosive"],
+        "related_topics": ["acid", "chemistry", "chemical formula", "industrial chemistry"]
+      },
+      "chemistry": {
+        "definition": "Chemistry is the scientific study of matter, its properties, composition, structure, and the changes it undergoes during chemical reactions. It involves studying atoms, molecules, and their interactions to understand how substances behave and transform.",
+        "keywords": ["matter", "atoms", "molecules", "reactions", "elements"],
+        "related_topics": ["periodic table", "chemical reactions", "atoms", "molecules"]
+      },
+      "acid": {
+        "definition": "An acid is a chemical substance that donates hydrogen ions (H+) in solution, has a pH less than 7, and can neutralize bases. Common examples include hydrochloric acid (HCl), sulfuric acid (H2SO4), and citric acid found in citrus fruits.",
+        "keywords": ["ph", "hydrogen ions", "corrosive", "neutralization"],
+        "related_topics": ["base", "ph", "chemistry", "chemical reactions"]
+      }
+    },
+    "mathematics": {
+      "pi": {
+        "definition": "Pi (π) is a mathematical constant approximately equal to 3.14159. It represents the ratio of a circle's circumference to its diameter and appears in many mathematical formulas.",
+        "keywords": ["circle", "circumference", "diameter", "constant", "3.14159"],
+        "related_topics": ["geometry", "circles", "mathematics", "trigonometry"]
+      },
+      "fibonacci": {
+        "definition": "The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones: 0, 1, 1, 2, 3, 5, 8, 13, 21... It appears frequently in nature.",
+        "keywords": ["sequence", "golden ratio", "nature", "mathematics"],
+        "related_topics": ["mathematics", "sequences", "golden ratio", "nature patterns"]
+      }
+    }
+  },
+  "intents": {
+    "greeting": {
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "howdy", "greetings"],
+      "responses": [
+        "Hello! I'm an advanced NLP chatbot with enhanced understanding capabilities. How can I help you today?",
+        "Hi there! I'm equipped with spaCy and NLTK for better language understanding. What would you like to discuss?",
+        "Greetings! I can help with questions about technology, science, and more. What interests you?"
+      ]
+    },
+    "farewell": {
+      "patterns": ["goodbye", "bye", "see you later", "farewell", "take care"],
+      "responses": [
+        "Goodbye! It was great chatting with you. Take care!",
+        "See you later! Thanks for the interesting conversation.",
+        "Farewell! Feel free to come back anytime for more chat."
+      ]
+    }
+  },
+  "clarification_questions": {
+    "ambiguous_topics": {
+      "python": [
+        "Are you asking about Python the programming language or Python the snake?",
+        "Do you mean Python programming or the reptile?"
+      ],
+      "java": [
+        "Are you referring to Java the programming language or Java the island?",
+        "Do you mean Java programming or the Indonesian island?"
+      ],
+      "apple": [
+        "Are you asking about Apple the company or apple the fruit?",
+        "Do you mean Apple Inc. or the fruit?"
+      ]
+    },
+    "vague_questions": [
+      "Could you be more specific about what aspect interests you?",
+      "That's a broad topic. What particular area would you like to focus on?",
+      "Can you provide more details about what you'd like to know?",
+      "What specific information are you looking for about this topic?"
+    ]
+  }
+}

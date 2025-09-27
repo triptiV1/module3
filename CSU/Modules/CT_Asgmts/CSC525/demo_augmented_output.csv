@@ -1,0 +1,72 @@
+text,label
+I love this product! It works perfectly and exceeded my expectations.,positive
+This movie was absolutely terrible. I wasted my time watching it.,negative
+The weather today is nice and sunny. Perfect for a walk in the park.,neutral
+Customer service was unhelpful and rude. Very disappointed with the experience.,negative
+The restaurant has amazing food and excellent service. Highly recommended!,positive
+I'm not sure about this decision. It could go either way.,neutral
+The software is buggy and crashes frequently. Needs major improvements.,negative
+Great value for money! This purchase was definitely worth it.,positive
+"The book was okay, nothing special but not bad either.",neutral
+Fantastic quality and fast delivery. Will definitely order again!,positive
+The interface is confusing and hard to navigate. Poor user experience.,negative
+Beautiful sunset today. Nature never fails to amaze me.,neutral
+Worst customer support ever! They couldn't solve my simple problem.,negative
+Outstanding performance and reliability. Exactly what I needed.,positive
+The meeting was productive and we made good progress on the project.,neutral
+Overpriced and underwhelming. Expected much better for this cost.,negative
+Incredible experience! Everything was perfect from start to finish.,positive
+The traffic was heavy but manageable during rush hour.,neutral
+Broken on arrival and poor packaging. Very unsatisfied with this purchase.,negative
+Excellent tutorial! Clear explanations and easy to follow steps.,positive
+I adore this product It works perfectly and exceeded my expectations,positive_aug
+I enjoy this product It works perfectly and exceeded my expectations,positive_aug
+I love perfectly product It works this and exceeded my expectations,positive_aug
+This I absolutely was terrible movie wasted my time watching it,negative_aug
+This movie was absolutely atrocious I wasted my time watching it,negative_aug
+This movie was absolutely dreadful I wasted my time watching it,negative_aug
+The weather today is delightful and sunny ideal for a walk in the park,neutral_aug
+The weather today is charming and sunny excellent for a walk in the park,neutral_aug
+The weather today is delightful and sunny superb for a walk in the park,neutral_aug
+Customer service was unhelpful and rude Very disappointed with the experience,negative_aug
+Customer service was unhelpful and rude Very disappointed with the,negative_aug
+service was unhelpful and rude Very disappointed with the experience,negative_aug
+The restaurant has remarkable food and excellent service Highly recommended,positive_aug
+The restaurant has amazing food and excellent service Highly recommended,positive_aug
+The restaurant has fantastic food and excellent service Highly recommended,positive_aug
+I m not sure about this decision It could go either way,neutral_aug
+I m sure about this decision It could go either way,neutral_aug
+I m not sure about It decision this could go way either,neutral_aug
+The software is buggy and crashes frequently Needs major improvements,negative_aug
+Great value definitely worth This purchase was for money it,positive_aug
+Great value for money This purchase was definitely worth it,positive_aug
+The book was okay nothing special but not awful either,neutral_aug
+The book was okay nothing special but not terrible either,neutral_aug
+Fantastic quality and fast delivery Will definitely order again,positive_aug
+Fantastic quality and delivery Will definitely order again,positive_aug
+Fantastic quality and speedy delivery Will definitely order again,positive_aug
+The interface is confusing and hard to navigate Poor user experience,negative_aug
+Beautiful sunset today Nature never fails to amaze me,neutral_aug
+amaze fails today Nature never sunset to Beautiful me,neutral_aug
+Worst customer support ever They couldn t solve my simple problem,negative_aug
+Worst customer support ever They couldn t my solve simple problem,negative_aug
+Worst customer support ever They couldn t solve problem simple my,negative_aug
+Outstanding performance needed reliability Exactly what I and,positive_aug
+Outstanding performance and reliability Exactly what I needed,positive_aug
+Outstanding performance and reliability needed what I Exactly,positive_aug
+The was productive we made good progress on the project,neutral_aug
+The meeting was productive and we made amazing progress on the project,neutral_aug
+The meeting was productive and we made good progress on the project,neutral_aug
+Overpriced and underwhelming better much Expected for this cost,negative_aug
+Overpriced and underwhelming Expected much better for this cost,negative_aug
+Incredible experience Everything was perfect from start to finish,positive_aug
+Incredible Everything experience perfect was from start to finish,positive_aug
+Incredible experience Everything was perfect from start finish,positive_aug
+The but was heavy traffic during manageable rush hour,neutral_aug
+The traffic was heavy but manageable during rush hour,neutral_aug
+The during was heavy but manageable traffic rush hour,neutral_aug
+Broken with arrival and poor packaging this unsatisfied on Very purchase,negative_aug
+Broken arrival and poor packaging Very unsatisfied with this purchase,negative_aug
+Broken purchase arrival and with packaging Very unsatisfied poor this on,negative_aug
+Excellent tutorial and explanations Clear to easy follow steps,positive_aug
+Excellent tutorial Clear explanations and easy to follow steps,positive_aug

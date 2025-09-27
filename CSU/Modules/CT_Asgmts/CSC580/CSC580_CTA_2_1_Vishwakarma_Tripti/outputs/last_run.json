@@ -1,0 +1,32 @@
+{
+  "hidden_units": 512,
+  "learning_rate": 0.5,
+  "batch_size": 32,
+  "epochs": 5,
+  "layers": 1,
+  "seed": 42,
+  "test_accuracy": 0.979,
+  "misclassified_saved": [
+    "outputs/misclassified/misclassified_000_true4_pred9.png",
+    "outputs/misclassified/misclassified_001_true7_pred4.png",
+    "outputs/misclassified/misclassified_002_true4_pred2.png",
+    "outputs/misclassified/misclassified_003_true2_pred7.png",
+    "outputs/misclassified/misclassified_004_true5_pred3.png",
+    "outputs/misclassified/misclassified_005_true3_pred7.png",
+    "outputs/misclassified/misclassified_006_true6_pred5.png",
+    "outputs/misclassified/misclassified_007_true6_pred0.png",
+    "outputs/misclassified/misclassified_008_true3_pred5.png",
+    "outputs/misclassified/misclassified_009_true8_pred2.png",
+    "outputs/misclassified/misclassified_010_true7_pred3.png",
+    "outputs/misclassified/misclassified_011_true8_pred2.png",
+    "outputs/misclassified/misclassified_012_true2_pred6.png",
+    "outputs/misclassified/misclassified_013_true5_pred3.png",
+    "outputs/misclassified/misclassified_014_true8_pred4.png",
+    "outputs/misclassified/misclassified_015_true5_pred8.png",
+    "outputs/misclassified/misclassified_016_true1_pred3.png",
+    "outputs/misclassified/misclassified_017_true8_pred9.png",
+    "outputs/misclassified/misclassified_018_true5_pred4.png",
+    "outputs/misclassified/misclassified_019_true1_pred2.png"
+  ],
+  "timestamp": "2025-09-21T22:02:57"
+}

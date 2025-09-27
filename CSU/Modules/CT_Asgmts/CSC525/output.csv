@@ -1,0 +1,61 @@
+text,label
+I love this product! It works perfectly and exceeded my expectations.,positive
+This movie was absolutely terrible. I wasted my time watching it.,negative
+The weather today is nice and sunny. Perfect for a walk in the park.,neutral
+Customer service was unhelpful and rude. Very disappointed with the experience.,negative
+The restaurant has amazing food and excellent service. Highly recommended!,positive
+I'm not sure about this decision. It could go either way.,neutral
+The software is buggy and crashes frequently. Needs major improvements.,negative
+Great value for money! This purchase was definitely worth it.,positive
+"The book was okay, nothing special but not bad either.",neutral
+Fantastic quality and fast delivery. Will definitely order again!,positive
+The interface is confusing and hard to navigate. Poor user experience.,negative
+Beautiful sunset today. Nature never fails to amaze me.,neutral
+Worst customer support ever! They couldn't solve my simple problem.,negative
+Outstanding performance and reliability. Exactly what I needed.,positive
+The meeting was productive and we made good progress on the project.,neutral
+Overpriced and underwhelming. Expected much better for this cost.,negative
+Incredible experience! Everything was perfect from start to finish.,positive
+The traffic was heavy but manageable during rush hour.,neutral
+Broken on arrival and poor packaging. Very unsatisfied with this purchase.,negative
+Excellent tutorial! Clear explanations and easy to follow steps.,positive
+I adore this product It works perfectly and exceeded my expectations,positive_aug
+I enjoy this product It works perfectly and exceeded my expectations,positive_aug
+I love this product It works perfectly and exceeded my expectations,positive_aug
+This movie was absolutely awful I wasted my time watching it,negative_aug
+This movie was absolutely horrible I wasted my time watching it,negative_aug
+This movie was absolutely dreadful I wasted my time watching it,negative_aug
+This movie was absolutely terrible I wasted my time watching it,negative_aug
+The weather today is nice and sunny Perfect for a walk in the park,neutral_aug
+The weather today is charming and sunny outstanding for a walk in the park,neutral_aug
+Customer service was unhelpful and rude Very disappointed with the experience,negative_aug
+The restaurant wonderful has amazing food and excellent service Highly recommended,positive_aug
+The restaurant has incredible food and excellent service Highly recommended,positive_aug
+The restaurant has fantastic food and excellent service Highly recommended,positive_aug
+The restaurant has amazing food and excellent service Highly recommended,positive_aug
+I m not sure about this decision It could go either way,neutral_aug
+The software is buggy and crashes frequently Needs major improvements,negative_aug
+Great value for money This purchase was definitely worth it,positive_aug
+The book was okay nothing special but not horrible either,neutral_aug
+The book was okay nothing special but not terrible either,neutral_aug
+The book was okay nothing special but not bad either,neutral_aug
+Fantastic quality and hasty delivery Will definitely order again,positive_aug
+Fantastic quality and quick delivery Will definitely order again,positive_aug
+Fantastic quality and fast delivery Will definitely order again,positive_aug
+Fantastic quality and rapid delivery Will definitely order again,positive_aug
+The interface is confusing and hard to navigate Poor user experience,negative_aug
+Beautiful sunset today Nature never fails to amaze me,neutral_aug
+Worst customer support ever They couldn t solve my simple problem,negative_aug
+Outstanding performance and reliability Exactly what I needed,positive_aug
+The meeting was productive and we made amazing progress on the project,neutral_aug
+The meeting was productive and we made good progress on the project,neutral_aug
+The meeting was productive and we made fantastic progress on the project,neutral_aug
+The excellent meeting was productive and we made good progress on the project,neutral_aug
+Overpriced and underwhelming Expected much better for this cost,negative_aug
+Incredible experience Everything was ideal from start to finish,positive_aug
+Incredible experience Everything was superb from start to finish,positive_aug
+Incredible experience Everything flawless was perfect from start to finish,positive_aug
+Incredible experience Everything was perfect from start to finish,positive_aug
+The traffic was heavy but manageable during rush hour,neutral_aug
+Broken on arrival and poor packaging Very unsatisfied with this purchase,negative_aug
+Excellent tutorial Clear explanations and easy to follow steps,positive_aug
