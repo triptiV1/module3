@@ -4,8 +4,8 @@ CSC580 CTA 3.2 – Predicting Fuel Efficiency Using TensorFlow (Auto MPG)
 Author: Tripti Vishwakarma
 
 This script downloads the UCI Auto MPG dataset and builds TensorFlow regression models
-(using tf.keras) to predict MPG. It follows the required assignment steps, saves plots
-and text outputs for screenshots, and can auto-generate a Word document with results.
+(using tf.keras) to predict MPG. It follows the required assignment steps, and saves plots
+and text outputs for screenshots.
 
 Outputs are written to the ./outputs/ directory.
 
@@ -14,12 +14,10 @@ Usage:
 
 Optional flags:
   --epochs 1000         # number of training epochs (default 1000)
-  --docx                # explicitly generate the Word document (disabled by default)
 
 Dependencies (see requirements.txt):
   - tensorflow
   - pandas, numpy, matplotlib, seaborn
-  - python-docx (for Word report)
   - tensorflow-docs (optional) – if unavailable, a fallback plotting path is used
 """
 import argparse
@@ -47,12 +45,7 @@ try:
 except Exception:
     TFDOCS_AVAILABLE = False
 
-try:
-    from docx import Document
-    from docx.shared import Inches
-    DOCX_AVAILABLE = True
-except Exception:
-    DOCX_AVAILABLE = False
+# Word document generation removed per user request.
 
 
 def ensure_outputs_dir(base_dir: pathlib.Path) -> pathlib.Path:
@@ -238,74 +231,12 @@ def write_text(path: pathlib.Path, content: str):
         f.write(content)
 
 
-def generate_word_report(out_dir: pathlib.Path, context: dict):
-    if not DOCX_AVAILABLE:
-        print("python-docx not installed; skipping Word document generation.\n"
-              "Install with: pip install python-docx")
-        return None
-
-    step_header("Step 23: Generate Word document deliverable")
-    doc = Document()
-    doc.add_heading("CSC580 CTA 3.2 – Predicting Fuel Efficiency Using TensorFlow", level=1)
-    doc.add_paragraph(f"Author: {context['author']}")
-    doc.add_paragraph(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-
-    doc.add_heading("Overview", level=2)
-    doc.add_paragraph(
-        "This report implements a regression model using TensorFlow (tf.keras) on the UCI Auto MPG "
-        "dataset to predict fuel efficiency (MPG). It follows the specified assignment steps: data "
-        "download, exploration, normalization, model construction, training for 1000 epochs, and "
-        "visualization."
-    )
-
-    doc.add_heading("Data Exploration", level=2)
-    doc.add_paragraph("Tail of dataset and pairplot are provided below.")
-    if context.get("tail_path") and os.path.exists(context["tail_path"]):
-        doc.add_paragraph("Tail of Dataset (text saved): see attached file: " + context["tail_path"])
-    if context.get("pairplot_path") and os.path.exists(context["pairplot_path"]):
-        doc.add_picture(context["pairplot_path"], width=Inches(6))
-        doc.paragraphs[-1].alignment = 1
-
-    doc.add_heading("Model Architecture", level=2)
-    doc.add_paragraph("Sequential model with two Dense(64, relu) hidden layers and a single output.")
-    if context.get("model_summary_path") and os.path.exists(context["model_summary_path"]):
-        doc.add_paragraph("Model summary saved in: " + context["model_summary_path"])
-
-    doc.add_heading("Training Results", level=2)
-    doc.add_paragraph("The model was trained for 1000 epochs with 20% validation split. The plots below show MAE and MSE over epochs.")
-    if context.get("mae_plot") and os.path.exists(context["mae_plot"]):
-        doc.add_picture(context["mae_plot"], width=Inches(6))
-        doc.paragraphs[-1].alignment = 1
-    if context.get("mse_plot") and os.path.exists(context["mse_plot"]):
-        doc.add_picture(context["mse_plot"], width=Inches(6))
-        doc.paragraphs[-1].alignment = 1
-
-    doc.add_heading("Comparison: MAE vs. MSE (Step 22)", level=2)
-    doc.add_paragraph(
-        "We trained two identical architectures with different loss functions: one minimizing Mean Squared Error (MSE) and another minimizing Mean Absolute Error (MAE), "
-        "both reporting MAE and MSE as metrics. MSE penalizes larger errors more strongly due to squaring, often leading to fits that are more sensitive to outliers. "
-        "MAE is more robust to outliers but can produce slightly less smooth optimization surfaces. In our runs, the MSE-loss model typically achieved lower MSE while the "
-        "MAE-loss model achieved slightly lower MAE on validation in some epochs. Depending on whether large errors are more costly (choose MSE) or robustness to outliers is "
-        "preferred (choose MAE), either model can be considered useful."
-    )
-
-    doc.add_heading("Conclusions", level=2)
-    doc.add_paragraph(
-        "The tf.keras regression pipeline effectively predicts MPG using late-1970s/early-1980s automobile attributes. Normalization significantly stabilizes training. "
-        "Both MAE and MSE losses produced usable models; the best choice depends on error tolerance to outliers."
-    )
-
-    report_path = out_dir / "CSC580_CTA_3_2_Vishwakarma_Tripti.docx"
-    doc.save(report_path)
-    print(f"Saved Word document to {report_path}")
-    return str(report_path)
+# generate_word_report removed
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=1000)
-    # Word document generation is disabled by default; use --docx to enable.
-    parser.add_argument("--docx", action="store_true")
     args = parser.parse_args()
 
     base_dir = pathlib.Path(__file__).resolve().parent
@@ -392,47 +323,10 @@ def main():
     print(f"Test eval (MSE-loss model): loss={test_mse_eval[0]:.4f}, MAE={test_mse_eval[1]:.4f}, MSE={test_mse_eval[2]:.4f}")
     print(f"Test eval (MAE-loss model): loss={test_mae_eval[0]:.4f}, MAE={test_mae_eval[1]:.4f}, MSE={test_mae_eval[2]:.4f}")
 
-    # Step 23: Generate the Word document (if python-docx available and not disabled)
-    report_path = None
-    if args.docx:
-        context = {
-            "author": "Vishwakarma, Tripti",
-            "tail_path": str(tail_txt),
-            "pairplot_path": str(pairplot_path),
-            "model_summary_path": str(model_summary_path),
-            "mae_plot": str(mae_plot),
-            "mse_plot": str(mse_plot),
-        }
-        report_path = generate_word_report(out_dir, context)
-    else:
-        print("Skipping Word document generation (enable with --docx).")
+    # Step 23: Word document generation removed; skipping.
 
-    # Zip deliverable folder with code and outputs for submission convenience
-    step_header("Create submission ZIP archive")
-    zip_name = base_dir / "CSC580_CTA_3_2_Vishwakarma_Tripti.zip"
-    # Make a light zip including the script and outputs, not large datasets
-    import zipfile
-
-    with zipfile.ZipFile(zip_name, "w", compression=zipfile.ZIP_DEFLATED) as zf:
-        # Script
-        zf.write(base_dir / "auto_mpg_regression.py", arcname="auto_mpg_regression.py")
-        # Requirements and README if present
-        req = base_dir / "requirements.txt"
-        if req.exists():
-            zf.write(req, arcname="requirements.txt")
-        readme = base_dir / "README.md"
-        if readme.exists():
-            zf.write(readme, arcname="README.md")
-        # Outputs
-        for p in out_dir.glob("**/*"):
-            if p.is_file():
-                zf.write(p, arcname=str(pathlib.Path("outputs") / p.name))
-        # Report
-        if report_path:
-            zf.write(report_path, arcname=pathlib.Path(report_path).name)
-
-    print(f"Created archive: {zip_name}")
-    print("All done. Follow README for screenshots if needed.")
+    # Submission ZIP generation removed per user request; nothing to package here.
+    print("All done. Outputs saved in ./outputs. No ZIP created.")
 
 
 if __name__ == "__main__":
