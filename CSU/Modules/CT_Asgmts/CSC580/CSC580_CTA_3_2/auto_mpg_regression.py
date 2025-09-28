@@ -14,7 +14,7 @@ Usage:
 
 Optional flags:
   --epochs 1000         # number of training epochs (default 1000)
-  --no-docx             # skip generating the Word document
+  --docx                # explicitly generate the Word document (disabled by default)
 
 Dependencies (see requirements.txt):
   - tensorflow
@@ -304,7 +304,8 @@ def generate_word_report(out_dir: pathlib.Path, context: dict):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--epochs", type=int, default=1000)
-    parser.add_argument("--no-docx", action="store_true")
+    # Word document generation is disabled by default; use --docx to enable.
+    parser.add_argument("--docx", action="store_true")
     args = parser.parse_args()
 
     base_dir = pathlib.Path(__file__).resolve().parent
@@ -393,7 +394,7 @@ def main():
 
     # Step 23: Generate the Word document (if python-docx available and not disabled)
     report_path = None
-    if not args.no_docx:
+    if args.docx:
         context = {
             "author": "Vishwakarma, Tripti",
             "tail_path": str(tail_txt),
@@ -403,6 +404,8 @@ def main():
             "mse_plot": str(mse_plot),
         }
         report_path = generate_word_report(out_dir, context)
+    else:
+        print("Skipping Word document generation (enable with --docx).")
 
     # Zip deliverable folder with code and outputs for submission convenience
     step_header("Create submission ZIP archive")
