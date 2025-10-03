@@ -9,3 +9,10 @@ CSU/Modules/CT_Asgmts/CSC580/CSC580_CTA_2_1_Vishwakarma_Tripti/.venv311/
 
 # macOS system files
 .DS_Store
+
+# Environment files (prevent secret leaks)
+.env
+*.env
+**/.env
+**/*.env
+.env.*

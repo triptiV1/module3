@@ -120,3 +120,20 @@ All generated artifacts are saved under `CSU/Modules/CT_Asgmts/CSC580/CSC580_CTA
 - Text artifacts: `dataset_tail.txt`, `train_stats_tail.txt`, `model_summary_mse.txt`, `model_summary_mae.txt`, `history_tail_mse.txt`, `history_tail_mae.txt`
 
 <Add any additional notes or references here.>
+## References
+
+Dua, D., & Graff, C. (2017). UCI Machine Learning Repository: Auto MPG Data Set. University of California, Irvine. https://archive.ics.uci.edu/dataset/9/auto+mpg
+
+TensorFlow. (n.d.). Regression: Predict fuel efficiency. https://www.tensorflow.org/tutorials/keras/regression
+
+Keras Team. (n.d.). Keras API reference. https://keras.io/api/
+
+Tieleman, T., & Hinton, G. (2012). Lecture 6.5—RMSProp: Divide the gradient by a running average of its recent magnitude. COURSERA: Neural Networks for Machine Learning. https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
+
+Waskom, M. L. (2021). Seaborn: Statistical data visualization. PairGrid and pairplot. https://seaborn.pydata.org/generated/seaborn.pairplot.html
+
+Bishop, C. M. (2006). Pattern Recognition and Machine Learning. Springer.
+
+Willmott, C. J., & Matsuura, K. (2005). Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance. Climate Research, 30(1), 79–82. https://doi.org/10.3354/cr030079
+
+Kuhn, M., & Johnson, K. (2013). Applied Predictive Modeling. Springer.

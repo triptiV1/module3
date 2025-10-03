@@ -37,9 +37,11 @@ class SimpleRAGChatbot:
     def setup_gemini(self):
         """Setup Gemini 2.0 Flash API."""
         try:
-            # Use the API key directly
-            api_key = "AIzaSyDkTO43A946Zxb_60QwjfPDaqHE3MRmMHk"
-            
+            # Read API key from environment variable instead of hardcoding
+            api_key = os.getenv("GEMINI_API_KEY")
+            if not api_key:
+                raise ValueError("GEMINI_API_KEY is not set. Please set it in your environment.")
+
             genai.configure(api_key=api_key)
             self.gemini_model = genai.GenerativeModel('gemini-2.0-flash-exp')
             print("✅ Gemini 2.0 Flash configured successfully")
