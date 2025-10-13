@@ -1,0 +1,63 @@
+TOP 10 HYPERPARAMETER CONFIGURATIONS
+======================================================================
+
+Rank #1:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=45, batch_size=64
+  weight_positives=True
+  Mean Accuracy: 0.7254 ± 0.0128
+
+Rank #2:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=30, batch_size=64
+  weight_positives=True
+  Mean Accuracy: 0.7128 ± 0.0298
+
+Rank #3:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=45, batch_size=100
+  weight_positives=True
+  Mean Accuracy: 0.7079 ± 0.0158
+
+Rank #4:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=30, batch_size=100
+  weight_positives=True
+  Mean Accuracy: 0.6827 ± 0.0170
+
+Rank #5:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=30, batch_size=128
+  weight_positives=True
+  Mean Accuracy: 0.6719 ± 0.0131
+
+Rank #6:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=30, batch_size=64
+  weight_positives=False
+  Mean Accuracy: 0.6289 ± 0.0227
+
+Rank #7:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=45, batch_size=100
+  weight_positives=False
+  Mean Accuracy: 0.6167 ± 0.0371
+
+Rank #8:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=45, batch_size=64
+  weight_positives=False
+  Mean Accuracy: 0.6110 ± 0.0165
+
+Rank #9:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=30, batch_size=128
+  weight_positives=False
+  Mean Accuracy: 0.6053 ± 0.0146
+
+Rank #10:
+  n_hidden=50, n_layers=1, learning_rate=0.0005
+  dropout_prob=0.3, n_epochs=30, batch_size=100
+  weight_positives=False
+  Mean Accuracy: 0.5871 ± 0.0293
+

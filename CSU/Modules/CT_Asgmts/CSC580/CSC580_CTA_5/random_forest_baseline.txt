@@ -1,0 +1,5 @@
+Random Forest Baseline Results
+==================================================
+Train Accuracy: 0.9870
+Valid Accuracy: 0.6944
+Test Accuracy:  0.7136
