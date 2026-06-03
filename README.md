@@ -201,7 +201,7 @@ This portfolio demonstrates mastery in:
 
 **Tripti Vishwakarma**
 
-- Ph.D. Researcher in Data Science, Colorado State University
+- Ph.D. Researcher in Data Science, North Central University
 - Specialization: Retrieval-Augmented Generation (RAG), Large Language Model Evaluation, and Advanced Graph Architectures
 - Focus Areas: Agentic Workflows, Knowledge Graphs, and Production ML Systems
 
